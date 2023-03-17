@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-family: 'Koulen', cursive;
+}
+body{
+    background-color: gold;
+}
+h3{
+    text-align: center;
+}
+.container{
+    height: 864px;
+    width: 424px;
+    /* background-color: blue; */
+    border: 2px solid black;
+
+}
+.header{
+    height: 100px;
+    width: 400px;
+    background-color: skyblue;
+    float: left;
+    margin: 10px 10px 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.header:hover{
+    background-color: red;
+    color: white;
+}
+.nav{
+    height: 50px;
+    width: 400px;
+    background-color: pink;
+    float: left;
+    margin: 5px 10px 5px 10px ;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.nav:hover{
+    background-color: red;
+    color: white;
+}
+.body{
+    height: 560px;
+    width: 300px;
+    float: left;
+    margin: 5px 10px 5px 5px;
+
+
+}
+.section{
+    height: 350px;
+    width: 300px;
+    background-color: yellowgreen;
+    float: left;
+    margin: 0px 5px 5px 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.section:hover{
+    background-color: red;
+    color: white;
+}
+.article{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(177, 101, 177);
+    float: left;
+    margin: 5px 5px 0px 5px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.article:hover{
+    background-color: red;
+    color: white;
+}
+.aside{
+    height:560px;
+    width: 90px;
+    background-color:bisque;
+    float:left;
+    margin: 5px 5px 5px 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.aside:hover{
+    background-color: red;
+    color: white;
+}
+.footer{
+    height: 100px;
+    width: 400px;
+    background-color: aquamarine;
+    float: left;
+    margin: 5px 10px 10px 10px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.footer:hover{
+    background-color: red;
+    color: white;
+}
